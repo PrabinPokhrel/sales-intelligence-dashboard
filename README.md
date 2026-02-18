@@ -1,51 +1,125 @@
-# Sales & Customer Performance Dashboard
+# 📊 Sales & Customer Performance Dashboard
 
-## Overview
-This project presents an end-to-end Business Intelligence solution built using SQL Server, Python, and Power BI to analyze sales performance, customer behavior, and churn trends from an e-commerce dataset.
+## 🔎 Overview
 
-## Tech Stack
-- SQL Server (SSMS) – Data cleaning & modeling  
-- Python (Pandas, NumPy) – Data preprocessing  
-- Power BI – Data modeling, DAX measures, dashboards  
-- Kaggle Olist Dataset – Source data  
+This project presents an **end-to-end Business Intelligence solution** built using **SQL Server, Python, and Power BI** to analyze **sales performance, customer behavior, and churn trends** from an e-commerce dataset.
 
-## Data Model
-A star schema was implemented:
-- fact_orders – transactional sales data  
-- dim_customers – customer attributes  
-- Date table – time intelligence  
+The objective is to transform raw transactional data into **actionable business insights** through data cleaning, modeling, KPI design, and interactive dashboards.
 
-## Key KPIs
-- Revenue  
-- Orders  
-- Average Order Value (AOV)  
-- Monthly Growth %  
-- Active Customers  
-- Customer Lifetime Value (CLV)  
-- 90-day Churn Rate  
+---
 
-## Dashboard Pages
+## 🛠 Tech Stack
 
-### 1. Executive Overview
-- Revenue trend over time  
-- Geographic revenue distribution  
-- Core KPIs for management monitoring  
+* **SQL Server (SSMS)** – Data cleaning and star-schema modeling
+* **Python (Pandas, NumPy)** – Data preprocessing and transformation
+* **Power BI** – Data modeling, DAX measures, and dashboard visualization
+* **Kaggle Olist Dataset** – Source e-commerce data
 
-### 2. Customer Intelligence
-- Top customers by CLV  
-- Customer segmentation (High / Mid / Low)  
-- Active customer trend  
+---
 
-### 3. Churn Analysis
-- Churn rate and churned customers  
-- State-level churn comparison  
-- Monthly churn trend  
+## 🧱 Data Model
 
-## Business Insights
-- Revenue is concentrated among a small group of high-value customers.  
-- Certain regions show higher churn risk.  
-- Customer retention strategies can significantly improve lifetime value.  
+A **star schema** was implemented:
 
-## How to Run
-1. Download the Olist dataset from Kaggle.  
-2. Place raw CSV files in `Data/Raw Data
+* **fact_orders** – transactional sales data
+* **dim_customers** – customer attributes
+* **Date table** – time intelligence for trend analysis
+
+This structure enables **efficient KPI calculation and scalable BI reporting**.
+
+---
+
+## 📈 Key KPIs
+
+The dashboard measures core business performance:
+
+* Revenue
+* Orders
+* Average Order Value (AOV)
+* Monthly Growth %
+* Active Customers
+* Customer Lifetime Value (CLV)
+* 90-Day Churn Rate
+
+All KPIs are created using **DAX in Power BI**.
+
+---
+
+## 📊 Dashboard Pages
+
+### 1️⃣ Executive Overview
+
+* Revenue trend over time
+* Geographic revenue distribution
+* Core KPIs for management monitoring
+
+**Insight:**
+Revenue fluctuates across months with strong concentration in a few key regions, indicating opportunities for **market expansion and diversification**.
+
+---
+
+### 2️⃣ Customer Intelligence
+
+* Top customers ranked by CLV
+* Customer segmentation (High / Mid / Low)
+* Active customer trend over time
+
+**Insight:**
+A small proportion of **high-value customers generates a large share of revenue**, highlighting the importance of **retention strategies and loyalty programs**.
+
+---
+
+### 3️⃣ Churn Analysis
+
+* Churn rate and churned customers
+* State-level churn comparison
+* Monthly churn trend
+
+**Insight:**
+Churn peaks during specific periods, suggesting potential **customer retention or service quality issues** that require targeted intervention.
+
+---
+
+## 💡 Business Recommendations
+
+Based on the analysis:
+
+* Prioritize **retention campaigns** in high-churn regions
+* Implement **loyalty programs** for high-CLV customers
+* Monitor **monthly churn spikes** as early warning signals
+* Reduce dependency on a small set of high-value customers
+
+---
+
+## 📸 Dashboard Screenshots
+
+![Executive Overview](screenshots/page1.png)
+![Customer Intelligence](screenshots/page2.png)
+![Churn Analysis](screenshots/page3.png)
+
+---
+
+## ▶️ How to Run the Project
+
+1. Download the **Olist dataset** from Kaggle.
+2. Place raw CSV files inside `Data/Raw Data/`.
+3. Run the cleaning script:
+
+   ```
+   python Python/Clean_olist.py
+   ```
+4. Import processed data into **SQL Server**.
+5. Open **PowerBI/Viz.pbix** and refresh the data.
+
+---
+
+## 👨‍💻 Author
+
+**Prabin Pokhrel**
+Aspiring **Data Analyst / BI Analyst**
+Based in **Sweden**
+
+---
+
+⭐ *If you find this project useful, consider giving it a star on GitHub.*
+
