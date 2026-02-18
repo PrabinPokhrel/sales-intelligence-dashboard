@@ -103,6 +103,7 @@ Based on the analysis:
 ![Churn Analysis](Screenshot/Page%203/Screenshot%202026-02-18%20205533.png)
 
 
+
 ## ▶️ How to Run the Project
 
 1. Download the **Olist dataset** from Kaggle.
