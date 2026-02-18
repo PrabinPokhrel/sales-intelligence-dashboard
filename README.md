@@ -123,7 +123,7 @@ Based on the analysis:
 
 **Prabin Pokhrel**
 Aspiring **Data Analyst / BI Analyst**
-Based in **Sweden**
+Based in **Sweden Stockholm**
 
 ---
 
