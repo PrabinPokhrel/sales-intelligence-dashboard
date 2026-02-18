@@ -119,6 +119,18 @@ Based on the analysis:
 
 ---
 
+## 📊 Project Highlights
+- Built an end-to-end BI pipeline from raw data to executive dashboard.
+- Implemented star schema data model and DAX KPIs.
+- Identified customer concentration risk and regional churn patterns.
+- Designed interactive dashboards for business decision-making.
+
+## 📂 Repository Structure
+Data/ → Raw and processed datasets  
+Python/ → Data cleaning scripts  
+PowerBI/ → Final dashboard (.pbix)  
+Screenshot/ → Dashboard preview images
+
 ## 👨‍💻 Author
 
 **Prabin Pokhrel**
