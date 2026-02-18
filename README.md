@@ -93,11 +93,15 @@ Based on the analysis:
 
 ## 📸 Dashboard Screenshots
 
-![Executive Overview](screenshots/page1.png)
-![Customer Intelligence](screenshots/page2.png)
-![Churn Analysis](screenshots/page3.png)
+### Executive Overview
+![Executive Overview](Screenshot/Page%201/Screenshot%202026-02-18%20210907.png)
 
----
+### Customer Intelligence
+![Customer Intelligence](Screenshot/Page%202/Screenshot%202026-02-18%20210918.png)
+
+### Churn Analysis
+![Churn Analysis](Screenshot/Page%203/Screenshot%202026-02-18%20205533.png)
+
 
 ## ▶️ How to Run the Project
 
